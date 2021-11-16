@@ -63,7 +63,6 @@ public class TextManager : MonoBehaviour
     public IEnumerator Generate()
     {
         GeneratorUrl url = generatorsULRS.Values.ToList()[Random.Range(0, generatorsULRS.Count)];
-        Debug.Log(url.postUrl);
         WWWForm wwwForm = new WWWForm();
         wwwForm.AddField("y", 1);
         wwwForm.AddField("z", Random.Range(0, 6));
