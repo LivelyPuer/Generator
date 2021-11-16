@@ -52,13 +52,30 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Tribal UI for UGUI\Simple Sprite Packer\Scripts\Editor\SPInstanceEditor.cs" />
-     <Compile Include="Assets\Tribal UI for UGUI\Simple Sprite Packer\Scripts\Editor\SPSettings.cs" />
-     <Compile Include="Assets\Tribal UI for UGUI\Simple Sprite Packer\Scripts\Editor\SPAtlasBuilder.cs" />
-     <Compile Include="Assets\Tribal UI for UGUI\Simple Sprite Packer\Scripts\Editor\SPTools.cs" />
-     <Compile Include="Assets\Tribal UI for UGUI\Simple Sprite Packer\Scripts\Editor\SPReferenceReplacerWindow.cs" />
-     <Compile Include="Assets\Tribal UI for UGUI\Simple Sprite Packer\Scripts\Editor\SPSpriteImportData.cs" />
-     <Compile Include="Assets\Tribal UI for UGUI\Simple Sprite Packer\Scripts\Editor\SPDropWindow.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\NotificationManagerEditor.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\SwitchManagerEditor.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\ButtonManagerBasicWithIconEditor.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\ButtonManagerIconEditor.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\RadialSliderEditor.cs" />
+     <Compile Include="Assets\Modern UI Pack\Editor\ExtendedColorPicker.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\UIGradientEditor.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\PieChartEditor.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\HorizontalSelectorEditor.cs" />
+     <Compile Include="Assets\Modern UI Pack\Editor\InitMUIP.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\ProgressBarEditor.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\ButtonManagerWithIconEditor.cs" />
+     <Compile Include="Assets\Modern UI Pack\Editor\ContextMenu.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\ModalWindowManagerEditor.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\TooltipManagerEditor.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\DropdownMultiSelectEditor.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\WindowManagerEditor.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\ButtonManagerBasicIconEditor.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\UIManagerEditor.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\SliderManagerEditor.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\ButtonManagerEditor.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\ContextMenuManagerEditor.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\CustomDropdownEditor.cs" />
+     <Compile Include="Assets\Modern UI Pack\Scripts\Editor\ButtonManagerBasicEditor.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
